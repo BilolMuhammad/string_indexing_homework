@@ -6,4 +6,17 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    number = int(s)
+    n1 = number % 10
+    number //= 10
+    n2 = number % 10
+    number //= 10
+    n3 = number % 10
+    number //= 10
+    n4 = number % 10
+    number //= 10
+    n5 = number % 10
+    return n1 + n2 + n3+n4 + n5
+
+
+print(main('11111'))
