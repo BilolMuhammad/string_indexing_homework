@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    sum = 0
+    for n in s:
+        if n.isdecimal() == 1:
+            sum += 1
+        else:
+            sum += 0
+    return sum
+
+
+print(main('2 3 a s 4 s f 3 5'))
