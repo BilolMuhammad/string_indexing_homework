@@ -6,5 +6,13 @@ def main(s):
     Returns:
         int: answer
     """
-    return
-        
+    sum = 0
+    for n in s:
+        if n == '*':
+            sum += 1
+        else:
+            sum += 0
+    return sum
+
+
+print(main('sd*sd*df'))
