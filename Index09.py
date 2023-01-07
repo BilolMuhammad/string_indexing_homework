@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s >= '1' and s <= '9':
+        return int(s)
+    else:
+        return False
+
+
+print(main('5'))
