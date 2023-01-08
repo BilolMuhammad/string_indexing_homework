@@ -6,7 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return s.find('*')
+    if s.find('*') == -1:
+        return False
+    else:
+        return s.find('*')
 
 
-print(main('sds*d'))
+print(main('sdsd'))
