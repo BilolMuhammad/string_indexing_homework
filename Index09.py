@@ -6,10 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    if s >= '1' and s <= '9':
+    if s.isdigit():
         return int(s)
     else:
         return False
 
 
-print(main('5'))
+print(main('a'))
