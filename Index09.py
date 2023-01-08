@@ -9,7 +9,7 @@ def main(s):
     if s.isdigit():
         return int(s)
     else:
-        return False
+        return -1
 
 
 print(main('a'))
